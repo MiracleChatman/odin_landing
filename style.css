@@ -90,7 +90,7 @@ h2 {
 
   .cards {
     display: flex;
-    width: 80%;
+    width: 65%;
     margin: 0 auto;
   }
   .card{
@@ -101,5 +101,26 @@ h2 {
     padding-bottom: 50px;
     font-size: 18px;
     width: 200px;
+    margin: 0 auto;
+  }
+
+  .section-3 {
+    background-color: #E5E7EB;
+    padding: 50px;
+  }
+
+  .quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    width: 65%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+
+  .author{
+    text-align: right;
+    width: 65%;
     margin: 0 auto;
   }
