@@ -1,13 +1,28 @@
+*{
+    margin: 0;
+}
 body{
     font-family: 'roboto';
+    background-color: #1F2937;
+    
+}
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    
 }
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1F2937;
     color: white;
     font-size: 24px;
     align-items: center;
+    margin-bottom: 0px;
+    padding-top: 20px;
 }
 
 ul {
@@ -15,8 +30,37 @@ ul {
     display: flex;
     gap: 15px;
 }
-li{
+li, p {
     color: #E5E7EB;
     font-size: 18px;
 }
 
+h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+.hero{
+    background-color: #1F2937;
+    color: white;
+    margin-top: 0px;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+.heading {
+    width: 60%;
+    text-wrap: wrap;
+}
+.subheading {
+    width: 75%;
+    text-wrap: wrap;
+}
+button {
+    padding: 5px 20px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+}
